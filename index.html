@@ -193,11 +193,11 @@
 
       // 1. Function to toggle music
       function toggleMusic() {
-        if (music.paused) {
-          music.play();
+        if (music.played) {
+          music.pause();
           musicIcon.innerText = "🎵"; // Playing icon
         } else {
-          music.pause();
+          music.play();
           musicIcon.innerText = "🔇"; // Muted icon
         }
       }
