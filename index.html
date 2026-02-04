@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Birthday!</title>
+    <title>Happy Birthday Anamika!</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap"
@@ -57,10 +57,10 @@
   <body class="min-h-screen flex flex-col items-center justify-center p-4">
     <div class="text-center mb-10 animate__animated animate__fadeInDown">
       <h1 class="text-5xl md:text-7xl text-pink-600 birthday-font mb-2">
-        Happy Birthday, Queen! <br />Anamika
+        Happy Birthday,<br>Anamika! 🌸
       </h1>
       <p class="text-gray-600 tracking-widest uppercase text-sm font-semibold">
-        Special Day: <span id="dob">February 05, 2026</span>
+        Special Day: <span id="dob">February 05, </span>
       </p>
     </div>
 
@@ -116,9 +116,7 @@
           A Wish Just For You
         </h2>
         <p class="text-gray-700 leading-relaxed italic">
-          "To the most amazing person in my life—may your day be as bright as
-          your smile and as lovely as your heart. I wanted to give you something
-          as unique as you are. Happy Birthday, Anamika!"
+          To the most amazing person in my life—may your day glow as beautifully as your smile and feel as warm as your heart. I wanted to give you something just as rare and unforgettable as you are. Happy Birthday, Anamika! ✨🎂
         </p>
         <div class="mt-6">
           <button
@@ -136,14 +134,7 @@
             />
           </audio>
 
-          <div class="fixed bottom-5 right-5 z-50">
-            <button
-              id="musicToggle"
-              class="bg-white/80 backdrop-blur-sm p-3 rounded-full shadow-lg border border-pink-200 hover:scale-110 transition-transform"
-            >
-              <span id="musicIcon" class="text-2xl">🔇</span>
-            </button>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -191,19 +182,19 @@
       const musicToggle = document.getElementById("musicToggle");
       const musicIcon = document.getElementById("musicIcon");
 
-      // 1. Function to toggle music
+      /* 1. Function to toggle music
       function toggleMusic() {
-        if (music.played) {
-          music.pause();
+        if (music.paused) {
+          music.play();
           musicIcon.innerText = "🎵"; // Playing icon
         } else {
-          music.play();
+          music.pause();
           musicIcon.innerText = "🔇"; // Muted icon
         }
       }
 
       // 2. Attach to the floating button
-      musicToggle.addEventListener("click", toggleMusic);
+      musicToggle.addEventListener("click", toggleMusic);*/
 
       // 3. PRO TIP: Also start music when they click the "Surprise" button
       // This makes the transition feel seamless!
